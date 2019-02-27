@@ -1,0 +1,17 @@
+
+Signed-off-by: Steve Glennon <s.glennon@cablelabs.com>
+---
+ arch/arm/boot/dts/Makefile | 8 +
+ 1 file changed, 1 insertion(+)
+
+--- a/arch/arm/boot/dts/Makefile
++++ b/arch/arm/boot/dts/Makefile
+@@ -701,6 +701,7 @@
+ 	qcom-ipq4018-ap120c-ac.dtb \
+ 	qcom-ipq4018-ea6350v3.dtb \
+ 	qcom-ipq4018-eap1300.dtb \
++	qcom-ipq4018-ens620ext.dtb \
+ 	qcom-ipq4018-ex6100v2.dtb \
+ 	qcom-ipq4018-ex6150v2.dtb \
+ 	qcom-ipq4018-fritz4040.dtb \
+

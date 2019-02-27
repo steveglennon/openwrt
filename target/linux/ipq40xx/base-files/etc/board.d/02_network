@@ -36,6 +36,9 @@ ipq40xx_setup_interfaces()
 	compex,wpj428)
 		ucidef_set_interface_lan "eth0 eth1"
 		;;
+	engenius,ens620ext)
+		ucidef_set_interfaces_lan_wan "eth0" "eth1"
+		;;
 	engenius,eap1300|\
 	meraki,mr33|\
 	netgear,ex6100v2|\
